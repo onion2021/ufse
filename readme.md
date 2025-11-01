@@ -1,4 +1,4 @@
-This is a simple implementation of our solution.
+This is a simple implementation of our scheme.
 
 Run this project using `python performance_test.py`. 
 
