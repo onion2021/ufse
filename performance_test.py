@@ -74,7 +74,7 @@ def create_encoders(df: pd.DataFrame) -> Dict[str, Any]:
 def main():
     # 1. 加载数据
     print("1. Loading data")
-    DATA_FILE_PATH = 'doc\dataset\data\data50D-10k.csv'  # 当前使用的文件
+    DATA_FILE_PATH = 'doc\dataset\data\data60D-10k.csv'  # 当前使用的文件
     df = load_and_prepare_dataframe(DATA_FILE_PATH)
     print(f"Data loading completed. There are a total of {len(df)} records, sourced from the file: {DATA_FILE_PATH}")
 
